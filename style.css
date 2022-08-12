@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+header{
+    width: 100%;
+    height: 44px;
+    background-color: #333;
+}
+nav{
+    width: 65%;
+    height: 100%;
+    margin: auto;
+}
+.collection{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.item{
+    list-style: none;
+    color: #ddd;
+}
+.item span{
+    font-size: 12px;
+}
+.unicef{
+    background-color: f5f5f7;
+    height: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.unicef a{
+    text-decoration: none;
+    color: dodgerblue;
+    margin-left: 16px;
+    font-size: 14px;
+}
+
+
+.macbook{
+    width: 100%;
+    height: 580px;
+
+    background-image: url(./img/banner1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    background: url(./img/banner1.png) no-repeat center/cover;
+
+    padding-top: 220px;
+    padding-left: 180px;
+}
+.mackbook_text{
+    width: 400px;
+    text-align: center;
+}
+.mackbook_text h1{
+    font-size: 55px;
+}
+.link{
+    color: dodgerblue;
+    margin: 0px 18px;
+    text-decoration: none;
+}
+.link span{
+    font-size: 18px;
+}
+.link:hover span{
+    text-decoration: underline;
+}
+.watch{
+    width: 100%;
+    height: 500px;
+    background: url(./img/banner3.jpg) no-repeat center/cover;
+
+    text-align: center;
+    padding-top: 50px;
+}
+.watch h1{
+    font-size: 45px;
+}
+.watch h3{
+    font-size: 28px;
+    font-weight: 300;
+    padding: 15px 0px;
+}
+.wrapper{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.box{
+    width: 49.5%;
+    height: 550px;
+    margin: 2px;
+}
+.iphone13{
+    background: url(./img/001.jpg) no-repeat center/cover;
+    text-align: center;
+    padding-top: 50px;
+}
+.iphone13pro{
+    background: url(./img/002.jpg) no-repeat center/cover;
+    text-align: center;
+    padding-top: 50px;
+}
+.pro13{
+    background: url(./img/006.jpg) no-repeat center/cover;
+    text-align: center;
+    padding-top: 50px;
+}
+.pro13 h1{
+    color: #fff;
+}
+.pro13 p{
+    color: #ddd;
+}
+.iPad{
+    background: url(./img/005.jpg) no-repeat center/cover;
+    text-align: center;
+    padding-top: 50px;
+}
+.iPad h1{
+    color: #fff;
+}
+.iPad h1 span{
+    color: darkblue;
+}
+.redminote9{
+  background: url(./pexels-photo-5849559.jpeg) no-repeat center/cover;
+  text-align:center;
+  padding-top: 50px;
+  font-size: 20px;
+}
+.arcade{
+    background: url(./pexels-jess-bailey-designs-788946.jpg) no-repeat center/cover;
+    text-align: center;
+    padding-top: 50px;
+    font-size: 20px;
+}
+.one{
+    width: 100%;
+    height: 500px;
+    background: url(./img/banner2.jpg) no-repeat center/cover;
+    text-align: center;
+    align-items: center; 
+}
+.one h1 span{
+    color: palevioletred;
+}
